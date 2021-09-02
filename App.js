@@ -1,12 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import Registration from './Component/Registration';
+import Timerwithclass from './Component/Timerwithclass';
+import TimerWithfunction from './Component/Timerwithfunction';
 
 
 function App() {
   return (
     <div className="App">
-     <Registration />
+     <Timerwithclass />
+     <TimerWithfunction />
     </div>
   );
 }
